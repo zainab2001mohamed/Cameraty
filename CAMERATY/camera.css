@@ -1,0 +1,127 @@
+body{
+   perspective: 50000px;
+   background-image: url(791.jpg) ;
+   background-attachment: fixed;
+   background-clip: content-box
+}
+
+.up{                                            /*ده كل ما يخص الديفه اللي فوق خالص*/
+    height: 130px;
+    background-size: auto;
+    background-image:url(oooo.jpg);
+    margin: 0 auto;
+    color:#FFF;
+    font-size: 30px;
+    padding: 10px;
+    border-radius:10px;
+    
+}
+.z{                                                 /*تنسيق صفحات التسجيل والدخول*/
+    font-size: 50px;
+    text-decoration: none;
+    color:#24b9fd;
+    margin: 10px;
+    padding: 20px;
+    font-weight: 600;
+}
+.z:hover{
+    font-size: 55px;
+    text-decoration: blink;
+    color:#7bd0f7;
+}
+.camera{                                            /*ده كده ما يخص كلمه كاميرا*/
+    font-family: Cooper;
+    font-size: 45px;
+    float: right;
+    color: #24b9fd;
+    margin: 15px;
+    padding-right: 30px;
+    transition: all  .2s ease-in-out;
+    text-transform: uppercase;
+}
+.camera:hover{
+    font-size: 50px;
+    text-shadow: 9px -9px 2px #2e5669 ;
+    
+}
+.logo{                                               /*ده ما يخص لوجو الصفحه */
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+    border:#FFF solid 4px;
+    float: right;
+    transition: all  .2s ease-in-out;
+    margin-right: 15px
+}
+.logo:hover{
+    transform: rotate(360deg) scale(1.2);
+    
+}
+.father{                                            /*ده بتاع كود الديفه الكبيره*/
+    width:310px;
+    height:260px;
+    margin: 50px ;
+    font-size: 20px;
+    position: relative;
+    transition: all  .5s ease-in-out;
+    transform-style: preserve-3d;
+    display: inline-block;
+    border-radius: 5px ;
+}
+
+.father>div{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+}
+
+.father:hover{
+   transform: rotatex(180deg) scale(1.1);
+
+}
+
+.father .front{
+    z-index: 2;
+    backface-visibility: hidden;
+    background-color: #FFF;
+    border:#000 solid 5px;
+    border-radius: 10px
+}
+
+.father .back{
+    z-index: 1;
+    transform: rotatex(180deg);
+    backface-visibility: hidden;
+    background-color: #d1dcff;
+    border:#000 solid 5px;
+    border-radius: 80px 5px;
+    
+}
+img{
+    width:300px;
+    height:250px;
+}
+p{
+   font-family:Comic Sans MS;
+   color:#000a2a;
+   font-size: 20px;
+   text-align: center;
+}
+.zz{
+   font-size: 20px;
+   text-align: center;
+   text-decoration: none;
+   color: #f00;
+   
+}
+.zz:hover{
+   text-decoration: underline;
+   font-size: 23px;
+   color: #00f;
+   
+}
+

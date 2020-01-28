@@ -1,0 +1,50 @@
+body{ 
+    perspective: 50000px;
+    background-image: url(download0.jpg);
+    background-size: cover;
+    background-clip: content-box ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;;
+}
+
+.a{
+    font-family: Cooper;
+    font-size:60px;
+    text-align: center;
+    width:600px;
+    height:600px;
+    color: #b5c1ff;
+    border-radius: 50px;
+    border:#000a2a solid  10px;
+    background-color: rgba(00 ,00 ,00, 0.6);
+}
+fieldset{
+    border:hidden;
+    
+}
+form{
+    border: hidden
+}
+div{
+    line-height: 80px;   
+}
+.input{
+    font-size: 50px;
+    background: #000a2a;
+    color:#FFF;
+}
+.input:hover{
+    transform: scale(1.2);
+    color: #0FF;
+}
+.zz{
+    background-color: #EEE;
+    width: 200px;
+    height: 30px;
+}
+.zz:hover{
+    transform: scale(1.2);
+    color: #000a2a;
+    font-size: 20px;
+    
+}
